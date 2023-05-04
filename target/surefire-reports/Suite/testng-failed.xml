@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="testUtils.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="End to end Framework Test(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="endtoEndMobile.HibrydTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="Hybirdmode"/>
+          <include name="BaseConfiguration"/>
+          <include name="preSetup"/>
+        </methods>
+      </class> <!-- endtoEndMobile.HibrydTest -->
+    </classes>
+  </test> <!-- End to end Framework Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

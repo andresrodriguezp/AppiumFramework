@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="75860" started-at="2023-05-02T08:28:10Z" finished-at="2023-05-02T08:29:26Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="HibrydTest.Hybirdmode(java.util.HashMap)[pri:0, instance:endtoEndMobile.HibrydTest@55b53d44]" name="Hybirdmode" class="endtoEndMobile.HibrydTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="End to end Framework Test" duration-ms="74692" started-at="2023-05-02T08:28:10Z" finished-at="2023-05-02T08:29:24Z">
+      <class name="endtoEndMobile.HibrydTest">
+        <test-method status="PASS" signature="BaseConfiguration()[pri:0, instance:endtoEndMobile.HibrydTest@55b53d44]" name="BaseConfiguration" is-config="true" duration-ms="15517" started-at="2023-05-02T08:28:10Z" finished-at="2023-05-02T08:28:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseConfiguration -->
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:endtoEndMobile.HibrydTest@55b53d44]" name="preSetup" is-config="true" duration-ms="2148" started-at="2023-05-02T08:28:26Z" finished-at="2023-05-02T08:28:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="PASS" signature="Hybirdmode(java.util.HashMap)[pri:0, instance:endtoEndMobile.HibrydTest@55b53d44]" name="Hybirdmode" duration-ms="32989" started-at="2023-05-02T08:28:28Z" data-provider="getData" finished-at="2023-05-02T08:29:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Andres, country=Colombia, gender=female}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hybirdmode -->
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:endtoEndMobile.HibrydTest@55b53d44]" name="preSetup" is-config="true" duration-ms="1994" started-at="2023-05-02T08:29:01Z" finished-at="2023-05-02T08:29:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="PASS" signature="Hybirdmode(java.util.HashMap)[pri:0, instance:endtoEndMobile.HibrydTest@55b53d44]" name="Hybirdmode" duration-ms="20811" started-at="2023-05-02T08:29:03Z" data-provider="getData" finished-at="2023-05-02T08:29:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Leonardo, country=Argentina, gender=male}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hybirdmode -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:endtoEndMobile.HibrydTest@55b53d44]" name="TearDown" is-config="true" duration-ms="591" started-at="2023-05-02T08:29:24Z" finished-at="2023-05-02T08:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- endtoEndMobile.HibrydTest -->
+    </test> <!-- End to end Framework Test -->
+    <test name="Error Validations Test" duration-ms="1" started-at="2023-05-02T08:29:26Z" finished-at="2023-05-02T08:29:26Z">
+    </test> <!-- Error Validations Test -->
+  </suite> <!-- Suite -->
+</testng-results>
